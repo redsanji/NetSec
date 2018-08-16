@@ -34,7 +34,7 @@ for row in reader:
     }
     edges.append(edge)
 for node in nodes:
-    node["size"] = nodeDict[node['id']]
+    node["size"] = nodeDict[node['id']]*2
     
 data = {
     "nodes": nodes,
